@@ -10,7 +10,7 @@ I build backend services end-to-end: API design → async data layer → tests �
 ## Production experience (own projects)
 
 - **Trading backends.** Real-exchange integration over REST + WebSocket (HMAC-signed orders), live tick feeds, paper-trading engine, signal pipeline (Python + Swift/Vapor). Deployed and operated on Linux VPS.
-- **JourCheff engine.** Node.js service that turns a dictated dish into a committed supermarket cart via reverse-engineered store APIs: session/CSRF management, proactive re-login, request batching for sub-90s end-to-end flow.
+- **JourCheff engine.** Node.js service that turns a dictated dish into a committed supermarket cart via deep store-API integration: session/CSRF management, proactive re-login, request batching for sub-90s end-to-end flow.
 - **Infra/DevOps.** GCP VMs, nginx, systemd/launchd services, Telegram bots, headless CI pipelines (build → sign → upload) I built and run daily.
 
 ## Stack

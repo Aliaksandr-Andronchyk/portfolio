@@ -11,7 +11,7 @@ Live gold price tape with MACD-divergence signals, paper-trading engine and real
 `Swift · Vapor · WebSocket · REST · Charts`
 
 ### JourCheff — AI chef assistant
-Dictate a dish → AI decomposes it into products → groceries land in a real supermarket cart, ready for checkout with delivery slot selection. iOS app + Telegram bot + Node.js engine, reverse-engineered store APIs.
+Dictate a dish → AI decomposes it into products → groceries land in a real supermarket cart, ready for checkout with delivery slot selection. iOS app + Telegram bot + Node.js engine with deep supermarket API integration.
 `SwiftUI · Node.js · Telegram Bot API · Claude API`
 
 ### OIV — Voice Companion ([site](https://github.com/SashaAndronchyk/oiv-site))
