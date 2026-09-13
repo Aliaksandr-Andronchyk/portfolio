@@ -1,4 +1,4 @@
-# Sasha Andronchyk — iOS & AI App Developer
+# Sasha Andronchyk – iOS & AI App Developer
 
 I build and ship complete apps end-to-end: idea → SwiftUI app → backend → TestFlight/App Store. My main focus is iOS (SwiftUI) with heavy use of AI integrations (Claude / OpenAI APIs) and real-time data.
 
@@ -6,15 +6,15 @@ I build and ship complete apps end-to-end: idea → SwiftUI app → backend → 
 
 ## Featured Projects
 
-### DRAMOS — real-time trading terminal
+### DRAMOS – real-time trading terminal
 Live gold price tape with MACD-divergence signals, paper-trading engine and real exchange integration (REST + WebSocket, HMAC-signed orders). Swift/Vapor backend + web dashboard.
 `Swift · Vapor · WebSocket · REST · Charts`
 
-### JourCheff — AI chef assistant
+### JourCheff – AI chef assistant
 Dictate a dish → AI decomposes it into products → groceries land in a real supermarket cart, ready for checkout with delivery slot selection. iOS app + Telegram bot + Node.js engine with deep supermarket API integration.
 `SwiftUI · Node.js · Telegram Bot API · Claude API`
 
-### OIV — Voice Companion ([site](https://github.com/SashaAndronchyk/oiv-site))
+### OIV – Voice Companion ([site](https://github.com/SashaAndronchyk/oiv-site))
 Voice-first AI companion: iOS app + Apple Watch app (dictation → AI brain → reply), widgets, background sessions.
 `SwiftUI · watchOS · Speech · AI API`
 
