@@ -40,5 +40,6 @@ Production-shaped backend services with green CI: a booking REST API (FastAPI, a
 
 ## Contact
 
+- Site: [aliaksandr-andronchyk.github.io](https://aliaksandr-andronchyk.github.io) – role-specific pages with tailored CVs
 - GitHub: [@SashaAndronchyk](https://github.com/SashaAndronchyk)
 - Email: Andronchyki@icloud.com
