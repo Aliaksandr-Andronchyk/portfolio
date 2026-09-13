@@ -19,7 +19,7 @@ Voice-first AI companion: iOS app + Apple Watch app (dictation → AI brain → 
 `SwiftUI · watchOS · Speech · AI API`
 
 ### Animals Filter ([site](https://github.com/SashaAndronchyk/animals-filter-site))
-Camera app that recognizes animals with on-device Vision and enriches results with an AI model.
+Camera app that recognizes animals with on-device Vision and enriches results with an AI model. Version 1.0.3 live in the App Store since 07.09.2026.
 `SwiftUI · Vision · Core ML · Claude API`
 
 ### App portfolio ([sites](https://github.com/SashaAndronchyk/merovingen-apps), [avatar apps](https://github.com/SashaAndronchyk/avatar-app-sites))
