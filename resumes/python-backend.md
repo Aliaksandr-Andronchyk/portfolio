@@ -1,11 +1,11 @@
-# Sasha Andronchyk — Python Backend Developer (FastAPI)
+# Sasha Andronchyk – Python Backend Developer (FastAPI)
 
 I build backend services end-to-end: API design → async data layer → tests → Docker → CI. I come from shipping full products solo (iOS + backend + infra), so I own features across the whole stack and deploy what I write.
 
 ## Demo projects (code on GitHub, green CI)
 
-- **[lesson-booking-api](https://github.com/SashaAndronchyk/lesson-booking-api)** — booking REST API for tutors: FastAPI, async SQLAlchemy 2.0, PostgreSQL (asyncpg), Alembic migrations, business rules (time-slot overlap detection, status lifecycle), limit/offset pagination and filters. pytest suite runs against both in-memory SQLite and real PostgreSQL 16 in GitHub Actions; Docker Compose one-command start.
-- **[faststream-notify](https://github.com/SashaAndronchyk/faststream-notify)** — event-driven notification microservice: FastStream + RabbitMQ, pydantic v2 validation, pure formatting layer, handlers integration-tested with in-memory TestRabbitBroker.
+- **[lesson-booking-api](https://github.com/SashaAndronchyk/lesson-booking-api)** – booking REST API for tutors: FastAPI, async SQLAlchemy 2.0, PostgreSQL (asyncpg), Alembic migrations, business rules (time-slot overlap detection, status lifecycle), limit/offset pagination and filters. pytest suite runs against both in-memory SQLite and real PostgreSQL 16 in GitHub Actions; Docker Compose one-command start.
+- **[faststream-notify](https://github.com/SashaAndronchyk/faststream-notify)** – event-driven notification microservice: FastStream + RabbitMQ, pydantic v2 validation, pure formatting layer, handlers integration-tested with in-memory TestRabbitBroker.
 
 ## Production experience (own projects)
 
