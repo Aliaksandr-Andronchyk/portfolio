@@ -30,6 +30,8 @@ A batch of shipped utility & creative iOS apps (drawing, voice, lifestyle), all 
 Production-shaped backend services with green CI: a booking REST API (FastAPI, async SQLAlchemy 2.0, PostgreSQL, Alembic, slot-overlap business rules, tests against real PostgreSQL in GitHub Actions) and an event-driven notification microservice (FastStream + RabbitMQ, in-memory-broker tests).
 `Python · FastAPI · PostgreSQL · Alembic · FastStream · pytest · Docker · GitHub Actions`
 
+Standalone snippets: [momentum_signal.py](snippets/momentum_signal.py) – SMA crossover + RSI signal · [chain_indexer.py](snippets/chain_indexer.py) – resumable Aptos block/transaction indexer into SQLite, stdlib only.
+
 ## Skills
 
 - **iOS:** Swift, SwiftUI, StoreKit 2, WidgetKit, watchOS, Vision, Speech, background URLSession
