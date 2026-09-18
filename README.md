@@ -4,6 +4,8 @@ I build and ship complete apps end-to-end: idea → SwiftUI app → backend → 
 
 📄 Tailored resume versions: [AI Integration](resumes/ai-integration.md) · [Fintech / Real-time](resumes/fintech-realtime.md) · [Python Backend](resumes/python-backend.md)
 
+💻 Code samples: [CryptoPriceClient.swift](snippets/CryptoPriceClient.swift) – Foundation-only async/await Coinbase spot-price client with TTL cache, typed errors and self-checks, next to [momentum_signal.py](snippets/momentum_signal.py).
+
 ## Featured Projects
 
 ### DRAMOS – real-time trading terminal
