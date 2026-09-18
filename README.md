@@ -4,8 +4,6 @@ I build and ship complete apps end-to-end: idea → SwiftUI app → backend → 
 
 📄 Tailored resume versions: [AI Integration](resumes/ai-integration.md) · [Fintech / Real-time](resumes/fintech-realtime.md) · [Python Backend](resumes/python-backend.md)
 
-💻 Code samples: [CryptoPriceClient.swift](snippets/CryptoPriceClient.swift) – Foundation-only async/await Coinbase spot-price client with TTL cache, typed errors and self-checks, next to [momentum_signal.py](snippets/momentum_signal.py).
-
 ## Featured Projects
 
 ### DRAMOS – real-time trading terminal
@@ -32,7 +30,7 @@ A batch of shipped utility & creative iOS apps (drawing, voice, lifestyle), all 
 Production-shaped backend services with green CI: a booking REST API (FastAPI, async SQLAlchemy 2.0, PostgreSQL, Alembic, slot-overlap business rules, tests against real PostgreSQL in GitHub Actions) and an event-driven notification microservice (FastStream + RabbitMQ, in-memory-broker tests).
 `Python · FastAPI · PostgreSQL · Alembic · FastStream · pytest · Docker · GitHub Actions`
 
-Standalone snippets: [momentum_signal.py](snippets/momentum_signal.py) – SMA crossover + RSI signal · [chain_indexer.py](snippets/chain_indexer.py) – resumable Aptos block/transaction indexer into SQLite, stdlib only.
+Standalone snippets: [momentum_signal.py](snippets/momentum_signal.py) – SMA crossover + RSI signal · [chain_indexer.py](snippets/chain_indexer.py) – resumable Aptos block/transaction indexer into SQLite, stdlib only. · [orderbook_pipeline.py](snippets/orderbook_pipeline.py) – Coinbase order book and trade pipeline into SQLite with mid, spread, imbalance and VWAP aggregation. · [CryptoPriceClient.swift](snippets/CryptoPriceClient.swift) – async/await Coinbase spot-price client with TTL cache, typed errors and self-checks, Foundation only.
 
 ## Skills
 
