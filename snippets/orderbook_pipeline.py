@@ -153,7 +153,7 @@ def aggregate(conn: sqlite3.Connection) -> list[dict]:
     rows = conn.execute(
         "SELECT b.product, COUNT(*) AS snaps, AVG(b.mid), AVG(b.spread_bps), AVG(b.imbalance),"
         " (SELECT COALESCE(SUM(size), 0) FROM trades t WHERE t.product = b.product),"
-        " (SELECT SUM(price * size) / SUM(size) FROM trades t WHERE t.product = b.product)"
+        " (SELECT COALESCE(SUM(price * size) / SUM(size), 0.0) FROM trades t WHERE t.product = b.product)"
         " FROM book_snapshots b GROUP BY b.product ORDER BY b.product"
     ).fetchall()
     keys = ("product", "snapshots", "mid", "spread_bps", "imbalance", "volume", "vwap")
