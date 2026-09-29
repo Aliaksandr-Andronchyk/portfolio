@@ -174,15 +174,16 @@ def main(argv=None):
     if args.from_height is not None:
         start = args.from_height
     elif resume is not None:
-        start = min(resume + 1, tip)
+        start = resume + 1
         print("resume from %d (tip %d, lag %d)" % (start, tip, tip - start))
     else:
         start = max(tip - args.limit + 1, 0)
+    limit = max(min(args.limit, tip - start + 1), 0)
     print("chain_id=%s tip=%d indexing %d blocks from %d -> %s"
-          % (info.get("chain_id"), tip, args.limit, start, args.db))
+          % (info.get("chain_id"), tip, limit, start, args.db))
 
     t0 = time.time()
-    blocks_done, txs_done = index_range(conn, args.rpc, start, args.limit)
+    blocks_done, txs_done = index_range(conn, args.rpc, start, limit)
     print("done: %d blocks, %d txs in %.1fs" % (blocks_done, txs_done, time.time() - t0))
     print_stats(conn)
     return 0
